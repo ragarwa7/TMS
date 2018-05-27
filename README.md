@@ -14,4 +14,13 @@ For example, given the following input file:
         Retract:A
         Tell:C
         
-The status of TMS after executing each step would be as follows:        
+The status of TMS after executing each step would be as follows:       
+
+![TMS](https://github.com/ragarwa7/TMS/blob/master/resource/Snap1.PNG)
+
+So the final status of TMS is:
+
+        A>B
+        (A + -C) > D
+        D: f-C, (A+-C)>D g
+        -C
